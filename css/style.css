@@ -1,0 +1,171 @@
+header {
+    background-image: linear-gradient(#04519b, #044687, #033769);
+    color: #ffffff;
+    min-height: 100px;
+    padding-top: 25px;
+}
+
+header.logo {
+    float: left;
+}
+
+header .form-inline {
+    float: right;
+}
+
+.panel-heading {
+    background-image: linear-gradient(#04519b, #044687, #033769);
+    color: #ffffff !important;
+}
+
+.post-actions{
+    margin: 5px;
+}
+
+.new-comment-form .form-group{
+    width: 100%;
+}
+
+.new-comment-form input[type='text'] {
+    width: 100%
+}
+
+.comment {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px 0;
+    overflow: auto;
+    width: 100%;
+}
+
+.bubble {
+    position: relative;
+    width: 580px;
+    min-height: 65px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #ffffff;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-top: -15px;
+    left: -15px;
+    top: 50%;
+}
+
+.bubble:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #cccccc;
+    display: block;
+    width: 0;
+    z-index: 0;
+    margin-top: -15px;
+    left: -16px;
+    top: 50%;
+}
+
+.comment-avatar img{
+    width: 40px;
+    margin-right: 5px;
+}
+
+.friends li {
+        list-style-type: none;
+        padding: 0px 2px;
+        display: inline;
+        float: left;
+    }
+
+.friends .thumbnail {
+        margin-bottom: 5px;
+    }
+
+.friends img {
+        width: 55px;
+    }
+
+.groups img {
+        width: 80px;
+        float: left;
+        margin: 15px;
+    }
+
+.groups .btn {
+    margin-top: 5px;
+    }
+
+.group-item {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    overflow: auto;
+}
+
+.members .member-row {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.members img {
+    margin-bottom: 5px;
+}
+
+.profile-list {
+    margin-top: 30px;
+    line-height: 1.9em;
+}
+
+.profile-list li {
+    list-style: none;
+}
+
+.photos {
+    margin: 0;
+    padding: 0;
+}
+
+.photos li{
+    list-style: none;
+    margin: 5px;
+    float: left;
+    width: 23%;
+}
+
+.photos img {
+    width: 100%;
+}
+
+footer {
+    background: #f4f4f4;
+    height: 90px;
+    color: #04519b;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 30px;
+    border-top: 7px solid #04519b;
+}
+
+@media (min-width: 991px){
+    .members p{
+        padding-top: 40px;
+    }
+}
+
+
+
+

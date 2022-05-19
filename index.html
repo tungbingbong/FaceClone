@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dobble</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--FontAwesome CSS-->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="img/logo.png" class="logo">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="exampleInputPassword3">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-default">Sign in</button><br>
+                <div class="checkbox">
+                    <label>
+                              <input type="checkbox"> Remember me
+                          </label>
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="members.html">Members</a></li>
+                    <li><a href="groups.html">Groups</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 wall-and-posts">
+                <div class="new-wall-post panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Wall</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Write on the wall"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                            <div class="btn-group pull-right">
+                                <button type="button" class="btn btn-default">
+                                            <i class="fa fa-pencil"></i> Text</button>
+                                <button type="button" class="btn btn-default">
+                                            <i class="fa fa-camera-retro"></i> Image</button>
+                                <button type="button" class="btn btn-default">
+                                            <i class="fa fa-video-camera"></i> Video</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="existing-post-and-comments-panel panel-body panel panel-default">
+                    <div class="row">
+
+                        <div class="col-sm-2 post-avatar thumbnail text-center">
+                            <a href="profile.html">
+                                <img src="img/năng.jpg">
+                                <h5>Nang Le</h5>
+                            </a>
+                            <i class="fa fa-thumbs-o-up"> 7 Likes</i>
+                        </div>
+
+                        <div class="col-sm-10">
+                            <div class="post bubble pointer pointer-border">
+                                <p>Tình yêu là thứ khiến bạn trở nên mạnh mẽ hơn trong cuộc sống. Tuy nhiên không phải ai cũng có một tình yêu chân thành và lãng mạn. Tình yêu có thể làm bạn gục ngã trong cuộc sống hiện tại. Bởi thế bạn nên trân trọng tình
+                                    yêu hiện tại mà bạn đang nắm giữ. Không nên vì niềm vui nhất thời mà đánh mất tình yêu vĩnh cữu của bản thân. Loạt stt buồn về tình yêu giúp bạn cảm thấy cuộc sống này muôn màu muôn vẻ, tràn ngập sức sống</p>
+                            </div>
+
+                            <div class="post-actions">
+                                <a href="#">Comment - </a>
+                                <a href="#">Like - </a>
+                                <a href="#">Follow - </a>
+                                <a href="#">Share</a>
+                            </div>
+
+                            <div class="new-comment-form">
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Enter Comment">
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Submit</button>
+                                </form>
+                            </div>
+                            <!--END OF ORIG POST & ADD COMMENT SECTION-->
+
+                            <div class="existing-comments">
+
+                                <div class="clearfix"></div>
+                                <div class="comment">
+                                    <a class="comment-avatar pull-left" href="#"><img src="img/tu.jpg"></a>
+                                    <div class="comment-text">
+                                        <p>Gặp nhau là một chuyện, yêu nhau lại là chuyện khác. Hãy nắm bắt cơ hội nếu có.</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="clearfix"></div>
+                                <div class="comment">
+                                    <a class="comment-avatar pull-left" href="#"><img src="img/trung.jpg"></a>
+                                    <div class="comment-text">
+                                        <p>Tình yêu không cần phải hoàn hảo, nó chỉ cần chân thật và sự quan tâm vừa đủ.</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="clearfix"></div>
+                                <div class="comment">
+                                    <a class="comment-avatar pull-left" href="#"><img src="img/chi_1.jpeg"></a>
+                                    <div class="comment-text">
+                                        <p>Đừng mơ ước những ai ngoài tầm với, mây của trời hãy để gió cuốn đi.</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="existing-post-and-comments-panel panel-body panel panel-default">
+                    <div class="row">
+
+                        <div class="col-sm-2 post-avatar thumbnail text-center">
+                            <a href="profile.html">
+                                <img src="img/tung.jpg">
+                                <h5>Tran Tung</h5>
+                            </a>
+                            <i class="fa fa-thumbs-o-up"> 3 Likes</i>
+                        </div>
+
+                        <div class="col-sm-10">
+                            <div class="post bubble pointer pointer-border">
+                                <p>Nỗi buồn là thứ khiến bạn cảm thấy mệt mỏi và chán trường với cuộc sống hiện tại. Dù có buồn đau đến mấy, bạn cũng phải cố gắng vượt qua để chào đón những niềm vui tươi sáng và tốt đẹp hơn. Những stt buồn ngắn, tus tâm
+                                    trạng sẽ giúp bạn cảm thấy bớt cô đơn, tẻ nhạt trong cuộc sống này.</p>
+                            </div>
+
+                            <div class="post-actions">
+                                <a href="#">Comment - </a>
+                                <a href="#">Like - </a>
+                                <a href="#">Follow - </a>
+                                <a href="#">Share</a>
+                            </div>
+
+                            <div class="new-comment-form">
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Enter Comment">
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Submit</button>
+                                </form>
+                            </div>
+                            <!--END OF ORIG POST & ADD COMMENT SECTION-->
+
+                            <div class="existing-comments">
+
+                                <div class="clearfix"></div>
+                                <div class="comment">
+                                    <a class="comment-avatar pull-left" href="#"><img src="img/chi_1.jpeg"></a>
+                                    <div class="comment-text">
+                                        <p>Nỗi buồn là thứ khiến bạn cảm thấy mệt mỏi và chán trường với cuộc sống hiện tại.</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="existing-post-and-comments-panel panel-body panel panel-default">
+                    <div class="row">
+
+                        <div class="col-sm-2 post-avatar thumbnail text-center">
+                            <a href="profile.html">
+                                <img src="img/lan.jpg">
+                                <h5>Hoang Lan</h5>
+                            </a>
+                            <i class="fa fa-thumbs-o-up"> 5 Likes</i>
+                        </div>
+
+                        <div class="col-sm-10">
+                            <div class="post bubble pointer pointer-border">
+                                <p>Cuộc sống này không ai là trọn vẹn. Có người hạnh phúc khi được ở cạnh bạn bè, người thân, cuộc sống ấm no hạnh phúc.</p>
+                            </div>
+
+                            <div class="post-actions">
+                                <a href="#">Comment - </a>
+                                <a href="#">Like - </a>
+                                <a href="#">Follow - </a>
+                                <a href="#">Share</a>
+                            </div>
+
+                            <div class="new-comment-form">
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Enter Comment">
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Submit</button>
+                                </form>
+                            </div>
+                            <!--END OF ORIG POST & ADD COMMENT SECTION-->
+
+                            <div class="existing-comments">
+
+                                <div class="clearfix"></div>
+                                <div class="comment">
+                                    <a class="comment-avatar pull-left" href="#"><img src="img/trung.jpg"></a>
+                                    <div class="comment-text">
+                                        <p>I do not know about screen</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="clearfix"></div>
+                                <div class="comment">
+                                    <a class="comment-avatar pull-left" href="#"><img src="img/trung.jpg"></a>
+                                    <div class="comment-text">
+                                        <p>So boring bro</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 friends-and-groups">
+
+                <div class="friends panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">My Friends</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>
+                                <a class="thumbnail" href="profile.html"><img src="img/tung.jpg"></a>
+                            </li>
+                            <li>
+                                <a class="thumbnail" href="profile.html"><img src="img/tung.jpg"></a>
+                            </li>
+                            <li>
+                                <a class="thumbnail" href="profile.html"><img src="img/tung.jpg"></a>
+                            </li>
+                            <li>
+                                <a class="thumbnail" href="profile.html"><img src="img/tung.jpg"></a>
+                            </li>
+                            <li>
+                                <a class="thumbnail" href="profile.html"><img src="img/tung.jpg"></a>
+                            </li>
+                            <li>
+                                <a class="thumbnail" href="profile.html"><img src="img/tung.jpg"></a>
+                            </li>
+                            <li>
+                                <a class="thumbnail" href="profile.html"><img src="img/tung.jpg"></a>
+                            </li>
+                            <li>
+                                <a class="thumbnail" href="profile.html"><img src="img/tung.jpg"></a>
+                            </li>
+                            <li>
+                                <a class="thumbnail" href="profile.html"><img src="img/tung.jpg"></a>
+                            </li>
+                            <li>
+                                <a class="thumbnail" href="profile.html"><img src="img/tung.jpg"></a>
+                            </li>
+                            <li>
+                                <a class="thumbnail" href="profile.html"><img src="img/tung.jpg"></a>
+                            </li>
+                            <li>
+                                <a class="thumbnail" href="profile.html"><img src="img/tung.jpg"></a>
+                            </li>
+                        </ul>
+                        <a class="btn btn-primary" href="#">View all friends</a>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+                <div class="groups panel panel-default">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Latest Groups</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <div class="group-item">
+                            <img src="img/group.png">
+                            <a href="#">
+                                <h4>Dobble Social Group 1</h4>
+                            </a>
+                            <p>Nulla scelerisque leo placerat turpis ultricies mattis et ultrices augue.</p>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="group-item">
+                            <img src="img/group.png">
+                            <a href="#">
+                                <h4>Dobble Social Group 2</h4>
+                            </a>
+                            <p>Curabitur id elit nec justo tincidunt lacinia.</p>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="group-item">
+                            <img src="img/group.png">
+                            <a href="#">
+                                <h4>Dobble Social Group 3</h4>
+                            </a>
+                            <p>Sed eget tristique elit, sit amet ultricies elit.</p>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <a class="btn btn-primary" href="#">View all groups</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Dobble Copyright &copy; 2015. All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
